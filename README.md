@@ -17,6 +17,11 @@ The (2018a) paper by Calvo-Zaragoza & Rizo, provides a new dataset called Printe
 
 To extend the capabilities of this model to non-ideal situations as well as provide more data in the form of data-augmentation, Camera-PrIMuS (extension of PrIMuS) will also be used. (Calvo-Zaragoza & Rizo, 2018b) This dataset contains all the sheet music images from PrIMuS but with distortions applied to it in order to emulate imperfections that a camera would introduce in a real-world scenario. With the use of GraphicsMagick, an image processing tool, multiple filters are applied including implode, noise, rotation, and more, with random values within a specified range.
 
+### Trained Models
+
+You can download the models that I have already trained over here:
+https://drive.google.com/drive/folders/1_wtRErPgrkmb0RtkXHww2WJqzBvhVrtI?usp=sharing
+
 ### Results:
 
 Model is tested using SER (Symbol Error Rate):
